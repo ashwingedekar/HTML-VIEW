@@ -58,6 +58,10 @@ html_content = """
 <head>
 <title>Status Summary</title>
 <style>
+body
+{
+font-family: Calibri, sans-serif;
+}
 .tree {
   list-style-type: none;
 }

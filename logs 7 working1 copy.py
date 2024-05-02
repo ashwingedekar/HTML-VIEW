@@ -37,7 +37,7 @@ df.drop(columns=columns_to_drop, inplace=True)
 df.to_csv(file_path, index=False)
 
 print("CSV data processed successfully.")
-
+status_counts = df['Status'].value_counts()
 # Initialize defaultdict to store data by status and type
 data_by_status = defaultdict(lambda: defaultdict(list))
 
@@ -47,8 +47,8 @@ for _, row in df.iterrows():
     type_ = row['Type']
     date_time = row['Date Time']
     object_ = row['Object']
-    parent = row.get('Parent', '')  # Get 'Parent' value if it exists, otherwise use an empty string
-    message = row.get('Message(RAW)', '')  # Get 'Message' value if it exists, otherwise use an empty string
+    parent = row.get('Parent', '')  
+    message = row.get('Message(RAW)', '')  
     data_by_status[status][type_].append((date_time, object_, parent, message))
 
 # Generate HTML content dynamically
@@ -58,6 +58,10 @@ html_content = """
 <head>
 <title>Status Summary</title>
 <style>
+body
+{
+font-family: Calibri, sans-serif;
+}
 .tree {
   list-style-type: none;
 }
@@ -87,16 +91,17 @@ html_content = """
 .hidden {
   display: none;
 }
+
 </style>
 </head>
 <body>
-<h2>Status Summary</h2>
+<h2>PRTG-101.100-Logs</h2>
+
 <ul class="tree">
 """
 
-# Add status nodes
 for status, types in data_by_status.items():
-    # Add a class to the <li> based on the status value
+   
     status_class = ""
     if status == "Up":
         status_class = "status-up"
@@ -110,7 +115,7 @@ for status, types in data_by_status.items():
     for type_, objects in types.items():
         html_content += f"<li onclick='toggleChildren(event)'>{type_} ({len(objects)})<ul class='hidden'>"
         for date_time, object_, parent, message in objects:
-            html_content += f"<li onclick='showMessage(event)'>{date_time}, {object_}<ul class='hidden'><li>Parent: {parent}</li><li>Message: {message}</li></ul></li>"
+            html_content += f"<li onclick='showMessage(event)'>{date_time}, {parent}<ul class='hidden'><li>Type: {object_}</li><li>Message: {message}</li></ul></li>"
         html_content += "</ul></li>"
     html_content += "</ul></li>"
 
@@ -141,11 +146,9 @@ function showMessage(event) {
 </html>
 """
 
-# Write HTML to a temporary file
 with open("status_summary.html", "w") as file:
     file.write(html_content)
 
 print("HTML page generated successfully.")
 
-# Open the HTML page in Chrome
 webbrowser.open("status_summary.html")
