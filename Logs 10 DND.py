@@ -4,7 +4,6 @@ from datetime import datetime
 from collections import defaultdict
 import webbrowser
 
-
 with open("server_address.txt", "r") as file:
     server_parameters = dict(line.strip().split("=") for line in file)
 
@@ -26,22 +25,17 @@ with open(file_path, "wb") as file:
 
 print(f"CSV data saved to {file_path}")
 
-# Now read the CSV file into a DataFrame
 df = pd.read_csv(file_path)
 
-# Drop unnecessary columns
 columns_to_drop = ['ID(RAW)', 'Date Time(RAW)', 'Parent(RAW)', 'Type(RAW)', 'Object(RAW)', 'Status(RAW)', 'Message']
 df.drop(columns=columns_to_drop, inplace=True)
 
-# Save the updated DataFrame back to the CSV file
 df.to_csv(file_path, index=False)
 
 print("CSV data processed successfully.")
 status_counts = df['Status'].value_counts()
-# Initialize defaultdict to store data by status and type
 data_by_status = defaultdict(lambda: defaultdict(list))
 
-# Populate the defaultdict with data from the DataFrame
 for _, row in df.iterrows():
     status = row['Status']
     type_ = row['Type']
@@ -51,7 +45,6 @@ for _, row in df.iterrows():
     message = row.get('Message(RAW)', '')  
     data_by_status[status][type_].append((date_time, object_, parent, message))
 
-# Generate HTML content dynamically
 html_content = """
 <!DOCTYPE html>
 <html>
@@ -100,7 +93,6 @@ font-family: Calibri, sans-serif;
 <ul class="tree">
 """
 
-# Iterate through status and types
 for status, types in data_by_status.items():
     status_class = ""
     if status == "Up":
@@ -110,138 +102,34 @@ for status, types in data_by_status.items():
     elif status == "Warning":
         status_class = "status-warning"
 
-    # Add the status node with the appropriate class
-    html_content += f"<li onclick='toggleChildren(event)' class='{status_class}'>{status} ({len(types)})<ul class='hidden'>"
-    
-    # Iterate through types
-    for type_, objects in types.items():
-        # Start the type node
-        html_content += f"<li onclick='toggleChildren(event)'>{type_} ({len(objects)})<ul class='hidden'>"
-        
-        # Group objects by parent
-        grouped_objects = defaultdict(list)
-        for date_time, object_, parent, message in objects:
-            grouped_objects[parent].append((date_time, object_, message))
-        
-        # Iterate through grouped objects
-        for parent, grouped_items in grouped_objects.items():
-            # Start the parent node
-            html_content += f"<li onclick='showMessage(event)'>{parent} ({len(grouped_objects[parent])})<ul class='hidden'>"
-            
-            # Add grouped items under the parent
-            for date_time, object_, message in grouped_items:
-                html_content += f"<li>Type: {object_} ({len(grouped_items)})<ul class='hidden'><li>DateTime: {date_time}, Message: {message}</li></ul></li>"
-            
-            # Close the parent node
-            html_content += "</ul></li>"
-        
-        # Close the type node
-        html_content += "</ul></li>"
-    
-    # Close the status node
-    html_content += "</ul></li>"
-
-# Generate HTML content dynamically
-html_content = """
-<!DOCTYPE html>
-<html>
-<head>
-<title>Status Summary</title>
-<style>
-body
-{
-font-family: Calibri, sans-serif;
-}
-.tree {
-  list-style-type: none;
-}
-
-.tree ul {
-  margin-left: 20px;
-}
-
-.tree ul ul {
-  margin-left: 20px;
-}
-
-.tree li {
-  cursor: pointer;
-}
-
-/* Define styles for different status backgrounds */
-.status-up {
-  color: green;
-}
-.status-down {
-  color: red;
-}
-.status-warning {
-  
-}
-.hidden {
-  display: none;
-}
-
-</style>
-</head>
-<body>
-<h2>PRTG-101.100-Logs</h2>
-
-<ul class="tree">
-"""
-
-# Iterate through status and types
-for status, types in data_by_status.items():
-    status_class = ""
-    if status == "Up":
-        status_class = "status-up"
-    elif status == "Down":
-        status_class = "status-down"
-    elif status == "Warning":
-        status_class = "status-warning"
-
-    # Add the status node with the appropriate class
     html_content += f"<li onclick='toggleStatus(event)' class='{status_class}'>{status} ({len(types)})<ul class='hidden'>"
     
-    # Iterate through types
     for type_, objects in types.items():
-        # Start the type node
-        html_content += f"<li onclick='toggleChildren(event)'>{type_} ({len(objects)})<ul class='hidden'>"
+        html_content += f"<li onclick='toggleChildren(event)'>Sensor Type: {type_} ({len(objects)})<ul class='hidden'>"
         
-        # Group objects by parent
         grouped_objects = defaultdict(list)
         for date_time, object_, parent, message in objects:
             grouped_objects[parent].append((date_time, object_, message))
         
-        # Iterate through grouped objects
         for parent, grouped_items in grouped_objects.items():
-            # Start the parent node
-            html_content += f"<li onclick='toggleChildren(event)'>{parent}<ul class='hidden'>"
+            html_content += f"<li onclick='toggleChildren(event)'>Device : {parent} ({len(grouped_items)})<ul class='hidden'>"
             
-            # Group objects by object_
             grouped_objects_by_type = defaultdict(list)
             for date_time, object_, message in grouped_items:
                 grouped_objects_by_type[object_].append((date_time, message))
             
-            # Iterate through grouped objects by object_
             for obj, grouped_items_by_type in grouped_objects_by_type.items():
-                # Start the object_ node
-                html_content += f"<li>{obj}<ul class='hidden'>"
+                html_content += f"<li>Sensor name : {obj} ({len(grouped_items_by_type)})<ul class='hidden'>"
                 
-                # Add grouped items under the object_
                 for date_time, message in grouped_items_by_type:
                     html_content += f"<li>DateTime: {date_time}, Message: {message}</li>"
                 
-                # Close the object_ node
                 html_content += "</ul></li>"
             
-            # Close the parent node
             html_content += "</ul></li>"
         
-        # Close the type node
         html_content += "</ul></li>"
     
-    # Close the status node
     html_content += "</ul></li>"
 
 html_content += """
@@ -281,7 +169,6 @@ function showMessage(event) {
 </html>
 """
 
-# Write the HTML content to a file
 with open("status_summary.html", "w") as file:
     file.write(html_content)
 

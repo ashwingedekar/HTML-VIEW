@@ -1,4 +1,715 @@
 ID,Date Time,Parent,Type,Object,Status,Message(RAW)
+10695,03-05-2024 18:20:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 18:20:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 18:19:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 18:18:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12686,03-05-2024 18:18:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.05 Mbit/s
+12685,03-05-2024 18:18:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.05 Mbit/s
+12684,03-05-2024 18:18:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.02 Mbit/s
+12683,03-05-2024 18:18:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.02 Mbit/s
+12682,03-05-2024 18:18:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12686,03-05-2024 18:18:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:18:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:18:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:18:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:18:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12506,03-05-2024 18:18:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:18:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:18:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 18:18:08,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11124,03-05-2024 18:18:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 18:17:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 18:17:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:17:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:17:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:14:03
+11124,03-05-2024 18:17:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 18:16:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12686,03-05-2024 18:16:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.05 Mbit/s
+12685,03-05-2024 18:16:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.05 Mbit/s
+12684,03-05-2024 18:16:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.01 Mbit/s
+12683,03-05-2024 18:16:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.02 Mbit/s
+12682,03-05-2024 18:16:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12483,03-05-2024 18:16:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12686,03-05-2024 18:16:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:16:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:16:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:16:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:16:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12506,03-05-2024 18:16:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:16:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:15:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12686,03-05-2024 18:14:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.06 Mbit/s
+12685,03-05-2024 18:14:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.05 Mbit/s
+12684,03-05-2024 18:14:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.01 Mbit/s
+12683,03-05-2024 18:14:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.02 Mbit/s
+12682,03-05-2024 18:14:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12686,03-05-2024 18:14:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:14:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:14:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:14:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:14:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+10695,03-05-2024 18:14:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:14:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+9890,03-05-2024 18:13:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+8438,03-05-2024 18:13:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Down,"1,004 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total"
+7272,03-05-2024 18:13:39,{mgmt-jp-10-100-11-52} (10.100.11.52) [Cisco-WS-C3750X-48P-S] @Rack_03 [CDC-104],SNMP Traffic 64bit,(10145) UPLINK_Switch_99.252_Gi1/0/25 Traffic,Down,966 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12153,03-05-2024 18:13:35,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(047) P2P_CONNECTED_TO_172.16.1.14_GE0/0/30 Traffic,Down,"1,006 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total"
+12093,03-05-2024 18:13:30,{mgmt-tp-10-112-11-201} (10.112.11.201) [CISCO-WS-C3750X-48P] @Rack_L16 [TP-GF],SNMP Traffic 64bit,(10113) SERVER_10.112.72.11_MGMT Traffic,Down,969 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+10695,03-05-2024 18:13:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:13:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+8193,03-05-2024 18:13:08,{mgmt-tp-192-168-101-252} (192.168.101.252) [CISCO--WS-C3850-48P] @Rack_L15 [TP-GF],SNMP Traffic 64bit,Gi1/0/23 to Gi1/0/40_mgmt-jp-192-168-99-252,Down,994 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12349,03-05-2024 18:13:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:10:04
+8451,03-05-2024 18:12:56,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,Secondary_Uplink_for_CDC-TP_to_TIPL-172.16.1.14_Port_30-VLAN-1140,Down,831 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+9890,03-05-2024 18:12:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Down,
+8438,03-05-2024 18:12:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Warning,715 Mbit/s (Traffic Total) is above the warning limit of 700 Mbit/s in Traffic Total
+12686,03-05-2024 18:12:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.05 Mbit/s
+12685,03-05-2024 18:12:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.04 Mbit/s
+12684,03-05-2024 18:12:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.01 Mbit/s
+12683,03-05-2024 18:12:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.01 Mbit/s
+12682,03-05-2024 18:12:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12483,03-05-2024 18:12:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12686,03-05-2024 18:12:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:12:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:12:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:12:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:12:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12506,03-05-2024 18:12:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+3056,03-05-2024 18:12:06,{mgmt-tp-192-168-101-251} (192.168.101.251) [CISCO-WS-C3850-24T] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Gi1/0/13(20) to Gi1/0/46_mgmt-tp-10-112-11-201,Down,"3,486 #/s (Errors Out) is above the error limit of 2 #/s in Errors Out"
+12506,03-05-2024 18:11:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:11:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 18:10:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:10:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 18:10:04,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12521,03-05-2024 18:09:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:09:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:06:05
+11124,03-05-2024 18:09:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 18:08:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:08:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 18:08:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 18:07:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 18:07:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 18:07:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:07:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5635,03-05-2024 18:07:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 18:07:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+8586,03-05-2024 18:07:05,{mgmt-jp-192-168-40-253} (192.168.40.253) [Cisco-WS-C3750E-48TD-S] @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0.05 #/s
+10359,03-05-2024 18:06:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11164,03-05-2024 18:06:07,{isp-wr-tp-192-168-101-222} (192.168.101.222) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:06:05,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+8586,03-05-2024 18:06:05,{mgmt-jp-192-168-40-253} (192.168.40.253) [Cisco-WS-C3750E-48TD-S] @Rack_XX,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 18:05:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+10696,03-05-2024 18:05:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5018,03-05-2024 18:05:26,{storage-cdc-tp-10-112-11-214} (10.112.11.214) [EdgeCore_AS7712-32X] @Rack_L15 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11148,03-05-2024 18:05:24,{isp-wr-tp-192-168-101-221} (192.168.101.221) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 18:05:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10697,03-05-2024 18:05:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 18:05:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:05:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5635,03-05-2024 18:05:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Down,
+11164,03-05-2024 18:05:07,{isp-wr-tp-192-168-101-222} (192.168.101.222) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 18:05:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:02:03
+9890,03-05-2024 18:04:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10696,03-05-2024 18:04:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5018,03-05-2024 18:04:26,{storage-cdc-tp-10-112-11-214} (10.112.11.214) [EdgeCore_AS7712-32X] @Rack_L15 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+11148,03-05-2024 18:04:24,{isp-wr-tp-192-168-101-221} (192.168.101.221) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Down,
+10697,03-05-2024 18:04:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10695,03-05-2024 18:04:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:04:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9890,03-05-2024 18:03:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:03:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 18:02:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:02:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:02:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 18:02:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 18:01:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:01:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:58:12
+12506,03-05-2024 18:00:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:00:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:59:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:59:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 17:58:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:58:12,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+5635,03-05-2024 17:58:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:58:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:57:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:57:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:57:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:57:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:54:04
+10359,03-05-2024 17:56:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:56:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9878,03-05-2024 17:56:23,{storage-cdc-gc-10-111-11-214} (10.111.11.214) [EdgeCore_AS7712-32X] @Rack_D05 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:56:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:56:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5635,03-05-2024 17:56:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 17:55:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:55:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9878,03-05-2024 17:55:23,{storage-cdc-gc-10-111-11-214} (10.111.11.214) [EdgeCore_AS7712-32X] @Rack_D05 [GC-3F],Syslog Receiver,Syslog Receiver,Warning,
+9248,03-05-2024 17:55:17,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(076) SERVER_10.100.31.14_vmNIC-12 Traffic,Up,"2,920 Mbit/s"
+12483,03-05-2024 17:54:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:54:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:54:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:54:04,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11123,03-05-2024 17:53:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:53:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9248,03-05-2024 17:53:17,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(076) SERVER_10.100.31.14_vmNIC-12 Traffic,Down,12 #/s (Discards Out) is above the error limit of 2 #/s in Discards Out
+10695,03-05-2024 17:53:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:53:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:53:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:50:06
+11123,03-05-2024 17:52:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+11124,03-05-2024 17:52:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:51:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:51:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:51:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11124,03-05-2024 17:51:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+300,03-05-2024 17:50:27,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Email"": Authentication to SMTP relay server ""smtp.gmail.com"" unsuccessful (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)"
+300,03-05-2024 17:50:25,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Push Notification"": No ""Push"" contact found (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)"
+0,03-05-2024 17:50:24,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)"
+10527,03-05-2024 17:50:24,{mgmt-jp-172.60.60.142} (172.60.60.142) CISCO{WS-C3560X-48},SNMP Traffic 64bit,(10106) UPLINK_TO_PMSEC_SW_P-gi4_104/R7 Traffic,Notification Info,State Trigger activated (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)
+12483,03-05-2024 17:50:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:50:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:50:06,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 17:49:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:49:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:49:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:49:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:46:03
+12483,03-05-2024 17:48:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:48:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:48:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:47:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:47:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+11124,03-05-2024 17:47:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:46:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:46:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:46:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:46:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11124,03-05-2024 17:46:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 17:45:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9890,03-05-2024 17:45:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:45:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 17:45:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:45:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:45:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:42:05
+10359,03-05-2024 17:44:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+9890,03-05-2024 17:44:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:44:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:44:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 17:43:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 17:43:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:42:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:42:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:42:05,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10695,03-05-2024 17:41:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:41:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:37:59
+300,03-05-2024 17:40:44,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Email"": Authentication to SMTP relay server ""smtp.gmail.com"" unsuccessful (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)"
+300,03-05-2024 17:40:41,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Push Notification"": No ""Push"" contact found (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)"
+10575,03-05-2024 17:40:28,{mgmt-jp-172.60.60.142} (172.60.60.142) CISCO{WS-C3560X-48},Syslog Receiver,Syslog Receiver,Up,0 #/s
+10527,03-05-2024 17:40:24,{mgmt-jp-172.60.60.142} (172.60.60.142) CISCO{WS-C3560X-48},SNMP Traffic 64bit,(10106) UPLINK_TO_PMSEC_SW_P-gi4_104/R7 Traffic,Down,The interface you want to monitor is disconnected: ifOperStatus=down (2) (code: PE058)
+12483,03-05-2024 17:40:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:40:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:40:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+3056,03-05-2024 17:40:06,{mgmt-tp-192-168-101-251} (192.168.101.251) [CISCO-WS-C3850-24T] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Gi1/0/13(20) to Gi1/0/46_mgmt-tp-10-112-11-201,Up,2.51 Mbit/s
+0,03-05-2024 17:39:56,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 8451 | Trigger Source ID: 0 | Trigger ID: 1)"
+8451,03-05-2024 17:39:56,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,Secondary_Uplink_for_CDC-TP_to_TIPL-172.16.1.14_Port_30-VLAN-1140,Notification Info,State Trigger activated (Sensor ID: 8451 | Trigger Source ID: 0 | Trigger ID: 1)
+8451,03-05-2024 17:39:56,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,Secondary_Uplink_for_CDC-TP_to_TIPL-172.16.1.14_Port_30-VLAN-1140,Up,9.78 Mbit/s
+0,03-05-2024 17:39:47,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 8438 | Trigger Source ID: 0 | Trigger ID: 1)"
+8438,03-05-2024 17:39:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Notification Info,State Trigger activated (Sensor ID: 8438 | Trigger Source ID: 0 | Trigger ID: 1)
+8438,03-05-2024 17:39:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Up,87 Mbit/s
+0,03-05-2024 17:39:39,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)"
+7272,03-05-2024 17:39:39,{mgmt-jp-10-100-11-52} (10.100.11.52) [Cisco-WS-C3750X-48P-S] @Rack_03 [CDC-104],SNMP Traffic 64bit,(10145) UPLINK_Switch_99.252_Gi1/0/25 Traffic,Notification Info,State Trigger activated (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)
+7272,03-05-2024 17:39:39,{mgmt-jp-10-100-11-52} (10.100.11.52) [Cisco-WS-C3750X-48P-S] @Rack_03 [CDC-104],SNMP Traffic 64bit,(10145) UPLINK_Switch_99.252_Gi1/0/25 Traffic,Up,148 Mbit/s
+300,03-05-2024 17:39:37,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Email"": Authentication to SMTP relay server ""smtp.gmail.com"" unsuccessful (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)"
+300,03-05-2024 17:39:35,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Push Notification"": No ""Push"" contact found (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)"
+0,03-05-2024 17:39:35,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)"
+12153,03-05-2024 17:39:35,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(047) P2P_CONNECTED_TO_172.16.1.14_GE0/0/30 Traffic,Notification Info,State Trigger activated (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)
+12153,03-05-2024 17:39:35,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(047) P2P_CONNECTED_TO_172.16.1.14_GE0/0/30 Traffic,Up,279 Mbit/s
+12093,03-05-2024 17:39:30,{mgmt-tp-10-112-11-201} (10.112.11.201) [CISCO-WS-C3750X-48P] @Rack_L16 [TP-GF],SNMP Traffic 64bit,(10113) SERVER_10.112.72.11_MGMT Traffic,Up,290 Mbit/s
+10575,03-05-2024 17:39:28,{mgmt-jp-172.60.60.142} (172.60.60.142) CISCO{WS-C3560X-48},Syslog Receiver,Syslog Receiver,Down,
+10527,03-05-2024 17:39:24,{mgmt-jp-172.60.60.142} (172.60.60.142) CISCO{WS-C3560X-48},SNMP Traffic 64bit,(10106) UPLINK_TO_PMSEC_SW_P-gi4_104/R7 Traffic,Warning,The interface you want to monitor is disconnected: ifOperStatus=down (2) (code: PE058)
+12483,03-05-2024 17:39:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:39:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+8193,03-05-2024 17:39:08,{mgmt-tp-192-168-101-252} (192.168.101.252) [CISCO--WS-C3850-48P] @Rack_L15 [TP-GF],SNMP Traffic 64bit,Gi1/0/23 to Gi1/0/40_mgmt-jp-192-168-99-252,Up,666 Mbit/s
+12483,03-05-2024 17:38:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:38:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:38:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:37:59,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10359,03-05-2024 17:37:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11123,03-05-2024 17:37:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:37:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:37:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:37:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:34:04
+11124,03-05-2024 17:37:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:36:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:36:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:35:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+300,03-05-2024 17:35:44,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Email"": Authentication to SMTP relay server ""smtp.gmail.com"" unsuccessful (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)"
+300,03-05-2024 17:35:42,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Push Notification"": No ""Push"" contact found (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)"
+12483,03-05-2024 17:35:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:35:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:35:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:35:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11124,03-05-2024 17:35:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+0,03-05-2024 17:34:56,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 8451 | Trigger Source ID: 0 | Trigger ID: 1)"
+8451,03-05-2024 17:34:56,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,Secondary_Uplink_for_CDC-TP_to_TIPL-172.16.1.14_Port_30-VLAN-1140,Notification Info,State Trigger activated (Sensor ID: 8451 | Trigger Source ID: 0 | Trigger ID: 1)
+10359,03-05-2024 17:34:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+0,03-05-2024 17:34:47,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 8438 | Trigger Source ID: 0 | Trigger ID: 1)"
+8438,03-05-2024 17:34:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Notification Info,State Trigger activated (Sensor ID: 8438 | Trigger Source ID: 0 | Trigger ID: 1)
+0,03-05-2024 17:34:39,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)"
+7272,03-05-2024 17:34:39,{mgmt-jp-10-100-11-52} (10.100.11.52) [Cisco-WS-C3750X-48P-S] @Rack_03 [CDC-104],SNMP Traffic 64bit,(10145) UPLINK_Switch_99.252_Gi1/0/25 Traffic,Notification Info,State Trigger activated (Sensor ID: 7272 | Trigger Source ID: 0 | Trigger ID: 1)
+300,03-05-2024 17:34:38,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Email"": Authentication to SMTP relay server ""smtp.gmail.com"" unsuccessful (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)"
+300,03-05-2024 17:34:35,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Push Notification"": No ""Push"" contact found (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)"
+0,03-05-2024 17:34:35,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)"
+12153,03-05-2024 17:34:35,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(047) P2P_CONNECTED_TO_172.16.1.14_GE0/0/30 Traffic,Notification Info,State Trigger activated (Sensor ID: 12153 | Trigger Source ID: 0 | Trigger ID: 1)
+11123,03-05-2024 17:34:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 17:34:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:34:04,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12506,03-05-2024 17:33:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:33:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:33:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:30:09
+12483,03-05-2024 17:32:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:32:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:32:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:31:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:31:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 17:30:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:30:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:30:09,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12521,03-05-2024 17:30:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 17:30:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:29:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:29:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:29:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:29:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:29:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:26:09
+11124,03-05-2024 17:29:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 17:28:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 17:28:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:28:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:27:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:27:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:27:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:27:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:26:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:26:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12665,03-05-2024 17:26:15,{mgmt-tp-192-168-101-246}(192.168.101.246)[HUAWE-S5700-28X-LI-AC] @[TP-SF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:26:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:26:09,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12521,03-05-2024 17:26:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10359,03-05-2024 17:25:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12665,03-05-2024 17:25:15,{mgmt-tp-192-168-101-246}(192.168.101.246)[HUAWE-S5700-28X-LI-AC] @[TP-SF],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:25:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+8193,03-05-2024 17:25:08,{mgmt-tp-192-168-101-252} (192.168.101.252) [CISCO--WS-C3850-48P] @Rack_L15 [TP-GF],SNMP Traffic 64bit,Gi1/0/23 to Gi1/0/40_mgmt-jp-192-168-99-252,Down,968 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12349,03-05-2024 17:25:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:22:08
+8451,03-05-2024 17:24:56,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,Secondary_Uplink_for_CDC-TP_to_TIPL-172.16.1.14_Port_30-VLAN-1140,Down,990 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+10359,03-05-2024 17:24:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+8438,03-05-2024 17:24:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Down,885 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+7272,03-05-2024 17:24:39,{mgmt-jp-10-100-11-52} (10.100.11.52) [Cisco-WS-C3750X-48P-S] @Rack_03 [CDC-104],SNMP Traffic 64bit,(10145) UPLINK_Switch_99.252_Gi1/0/25 Traffic,Down,949 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12153,03-05-2024 17:24:35,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(047) P2P_CONNECTED_TO_172.16.1.14_GE0/0/30 Traffic,Down,892 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12093,03-05-2024 17:24:30,{mgmt-tp-10-112-11-201} (10.112.11.201) [CISCO-WS-C3750X-48P] @Rack_L16 [TP-GF],SNMP Traffic 64bit,(10113) SERVER_10.112.72.11_MGMT Traffic,Down,894 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12483,03-05-2024 17:24:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:24:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:24:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+3056,03-05-2024 17:24:06,{mgmt-tp-192-168-101-251} (192.168.101.251) [CISCO-WS-C3850-24T] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Gi1/0/13(20) to Gi1/0/46_mgmt-tp-10-112-11-201,Down,"2,411 #/s (Errors Out) is above the error limit of 2 #/s in Errors Out"
+12483,03-05-2024 17:23:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:23:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:22:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:22:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:22:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:22:08,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 17:21:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:21:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:21:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:18:02
+10695,03-05-2024 17:20:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:20:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 17:19:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:19:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:19:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:18:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:18:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:18:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:18:02,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10359,03-05-2024 17:17:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:17:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 17:17:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:17:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:17:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:14:02
+10359,03-05-2024 17:16:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:16:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:16:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:16:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:16:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:15:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:15:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:15:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10359,03-05-2024 17:14:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+9814,03-05-2024 17:14:37,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth23(88)__vNIC10-13.vc12.c01__10.112.72.13,Up,605 Mbit/s
+10695,03-05-2024 17:14:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:14:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:14:02,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+9814,03-05-2024 17:13:37,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth23(88)__vNIC10-13.vc12.c01__10.112.72.13,Down,2.25 #/s (Discards In) is above the error limit of 2 #/s in Discards In
+12483,03-05-2024 17:13:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:13:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:13:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:13:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:13:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:10:03
+12483,03-05-2024 17:12:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:11:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:11:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:11:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:10:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:10:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:10:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10356,03-05-2024 17:10:07,{pdu-tp-192.168.101.239} (192.168.101.239) [HUAWEI S5720-56C-EI-DC] @Rack_K13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:10:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10695,03-05-2024 17:09:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:09:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10356,03-05-2024 17:09:07,{pdu-tp-192.168.101.239} (192.168.101.239) [HUAWEI S5720-56C-EI-DC] @Rack_K13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:09:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:06:02
+12483,03-05-2024 17:08:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:08:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:08:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:08:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:07:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 17:07:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10359,03-05-2024 17:06:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:06:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:06:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:06:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:06:02,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10359,03-05-2024 17:05:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:05:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:05:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:05:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:05:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:02:10
+10359,03-05-2024 17:04:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:04:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11124,03-05-2024 17:04:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:03:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:03:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:03:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 17:03:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+9814,03-05-2024 17:02:37,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth23(88)__vNIC10-13.vc12.c01__10.112.72.13,Up,11 Mbit/s
+10696,03-05-2024 17:02:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11123,03-05-2024 17:02:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:02:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0.03 #/s
+10697,03-05-2024 17:02:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:02:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0.03 #/s
+10695,03-05-2024 17:02:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:02:10,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12521,03-05-2024 17:02:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9814,03-05-2024 17:01:37,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth23(88)__vNIC10-13.vc12.c01__10.112.72.13,Warning,2 #/s (Discards In) is above the warning limit of 1 #/s in Discards In
+10696,03-05-2024 17:01:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+11123,03-05-2024 17:01:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+3615,03-05-2024 17:01:27,{isp-jp-172-60-60-1} (172.60.60.1) [EdgeCoreS5520-18X] @Rack_05 [CDC-105],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:01:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10697,03-05-2024 17:01:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:01:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:58:08
+3615,03-05-2024 17:00:57,{isp-jp-172-60-60-1} (172.60.60.1) [EdgeCoreS5520-18X] @Rack_05 [CDC-105],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:00:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:00:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:00:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:59:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:59:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:59:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:58:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:58:08,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 16:57:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:57:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:57:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:57:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:57:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:54:02
+10359,03-05-2024 16:56:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:56:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:56:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:56:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10359,03-05-2024 16:55:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 16:55:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:55:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9116,03-05-2024 16:55:02,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:54:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 16:54:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:54:02,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+9116,03-05-2024 16:54:02,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,Syslog Receiver,Syslog Receiver,Warning,
+10359,03-05-2024 16:53:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:53:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:53:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:53:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:50:02
+11124,03-05-2024 16:53:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 16:52:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:52:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:52:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 16:52:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 16:51:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10697,03-05-2024 16:51:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:51:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:51:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:51:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10696,03-05-2024 16:50:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10697,03-05-2024 16:50:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12506,03-05-2024 16:50:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:50:02,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 16:49:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:49:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:49:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:49:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:46:01
+10696,03-05-2024 16:48:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10697,03-05-2024 16:48:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:48:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9247,03-05-2024 16:47:52,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(075) SERVER_10.100.31.13_VMNICXX Traffic,Up,443 Mbit/s
+10695,03-05-2024 16:47:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:47:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10696,03-05-2024 16:46:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:46:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:46:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:46:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:46:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:46:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10359,03-05-2024 16:45:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10697,03-05-2024 16:45:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10695,03-05-2024 16:45:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:45:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:42:03
+10359,03-05-2024 16:44:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12577,03-05-2024 16:44:48,10.111.103.101,SNMP Traffic 64bit,LAN (10.111.103.101) Traffic,Up,569 Mbit/s
+12483,03-05-2024 16:44:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10697,03-05-2024 16:44:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:44:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:44:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 16:43:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9247,03-05-2024 16:43:52,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(075) SERVER_10.100.31.13_VMNICXX Traffic,Down,4.83 #/s (Discards Out) is above the error limit of 2 #/s in Discards Out
+12577,03-05-2024 16:43:48,10.111.103.101,SNMP Traffic 64bit,LAN (10.111.103.101) Traffic,Down,890 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+10696,03-05-2024 16:43:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+11123,03-05-2024 16:43:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10697,03-05-2024 16:43:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:43:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9116,03-05-2024 16:43:02,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0.02 #/s
+10359,03-05-2024 16:42:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+9247,03-05-2024 16:42:52,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(075) SERVER_10.100.31.13_VMNICXX Traffic,Up,212 Mbit/s
+11123,03-05-2024 16:42:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+10695,03-05-2024 16:42:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5635,03-05-2024 16:42:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:42:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:42:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+9116,03-05-2024 16:42:02,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,Syslog Receiver,Syslog Receiver,Warning,
+9247,03-05-2024 16:41:52,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(075) SERVER_10.100.31.13_VMNICXX Traffic,Warning,1.17 #/s (Discards Out) is above the warning limit of 1 #/s in Discards Out
+10696,03-05-2024 16:41:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:41:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10697,03-05-2024 16:41:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:41:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:41:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:41:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:41:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:38:04
+10696,03-05-2024 16:40:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+11123,03-05-2024 16:40:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:40:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10697,03-05-2024 16:40:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5635,03-05-2024 16:40:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:40:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11123,03-05-2024 16:39:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 16:39:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12665,03-05-2024 16:39:15,{mgmt-tp-192-168-101-246}(192.168.101.246)[HUAWE-S5700-28X-LI-AC] @[TP-SF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:39:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:39:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+3541,03-05-2024 16:39:09,{mgmt-tp-192-168-101-242} (192.168.101.242) [CISCO-WS-C3560G-48PS] @Rack_L15 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:38:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12665,03-05-2024 16:38:15,{mgmt-tp-192-168-101-246}(192.168.101.246)[HUAWE-S5700-28X-LI-AC] @[TP-SF],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:38:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+3541,03-05-2024 16:38:09,{mgmt-tp-192-168-101-242} (192.168.101.242) [CISCO-WS-C3560G-48PS] @Rack_L15 [TP-GF],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:38:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:38:04,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10695,03-05-2024 16:37:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:37:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:37:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:34:10
+9247,03-05-2024 16:36:52,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(075) SERVER_10.100.31.13_VMNICXX Traffic,Down,28 #/s (Discards Out) is above the error limit of 2 #/s in Discards Out
+12521,03-05-2024 16:36:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10563,03-05-2024 16:36:01,{cust-jp-10-100-11-206} (10.100.11.206) [Cisco-Nexus 3048 Chassis] @Rack_AIRTEL_MUX [CDC-101],SNMP Traffic 64bit,(369098957) CONNECTED_TO_VPC_SW Traffic,Up,93 Mbit/s
+10359,03-05-2024 16:35:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5680,03-05-2024 16:35:53,{mgmt-jp-192-168-40-253} (192.168.40.253) [Cisco-WS-C3750E-48TD-S] @Rack_XX,SNMP Traffic 64bit,(10152) UPLINK_2nd_Floor_40.252_Gi1/0/50 Traffic,Up,90 Mbit/s
+10662,03-05-2024 16:35:42,{mgmt-jp-192-168-40-252} (192.168.40.252) [Cisco- WS-C2960S-48TD-L] @Rack_XX,SNMP Traffic 64bit,(10150) UPLINK_CDC101_40.253_Gi1/0/52 Traffic,Up,130 Mbit/s
+12483,03-05-2024 16:35:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10567,03-05-2024 16:35:16,{cust-jp-10-100-11-206} (10.100.11.206) [Cisco-Nexus 3048 Chassis] @Rack_AIRTEL_MUX [CDC-101],SNMP Traffic 64bit,(436391936) UPLINK_TO_40.253_GI1/0/36 Traffic,Up,580 Mbit/s
+12506,03-05-2024 16:35:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:35:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:35:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10359,03-05-2024 16:34:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+5680,03-05-2024 16:34:53,{mgmt-jp-192-168-40-253} (192.168.40.253) [Cisco-WS-C3750E-48TD-S] @Rack_XX,SNMP Traffic 64bit,(10152) UPLINK_2nd_Floor_40.252_Gi1/0/50 Traffic,Warning,800 Mbit/s (Traffic Total) is above the warning limit of 700 Mbit/s in Traffic Total
+9754,03-05-2024 16:34:33,{cust-tp-10-112-11-212} (10.112.11.212) [Cisco-Nexus 5596 Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0 #/s
+11123,03-05-2024 16:34:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+9754,03-05-2024 16:34:23,{cust-tp-10-112-11-212} (10.112.11.212) [Cisco-Nexus 5596 Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Down,
+10567,03-05-2024 16:34:16,{cust-jp-10-100-11-206} (10.100.11.206) [Cisco-Nexus 3048 Chassis] @Rack_AIRTEL_MUX [CDC-101],SNMP Traffic 64bit,(436391936) UPLINK_TO_40.253_GI1/0/36 Traffic,Down,863 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12349,03-05-2024 16:34:10,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10563,03-05-2024 16:34:00,{cust-jp-10-100-11-206} (10.100.11.206) [Cisco-Nexus 3048 Chassis] @Rack_AIRTEL_MUX [CDC-101],SNMP Traffic 64bit,(369098957) CONNECTED_TO_VPC_SW Traffic,Down,936 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+10359,03-05-2024 16:33:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5680,03-05-2024 16:33:53,{mgmt-jp-192-168-40-253} (192.168.40.253) [Cisco-WS-C3750E-48TD-S] @Rack_XX,SNMP Traffic 64bit,(10152) UPLINK_2nd_Floor_40.252_Gi1/0/50 Traffic,Down,949 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+9247,03-05-2024 16:33:52,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(075) SERVER_10.100.31.13_VMNICXX Traffic,Up,229 Mbit/s
+10662,03-05-2024 16:33:42,{mgmt-jp-192-168-40-252} (192.168.40.252) [Cisco- WS-C2960S-48TD-L] @Rack_XX,SNMP Traffic 64bit,(10150) UPLINK_CDC101_40.253_Gi1/0/52 Traffic,Down,832 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+11123,03-05-2024 16:33:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 16:33:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 16:33:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9754,03-05-2024 16:33:13,{cust-tp-10-112-11-212} (10.112.11.212) [Cisco-Nexus 5596 Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0 #/s
+9754,03-05-2024 16:33:03,{cust-tp-10-112-11-212} (10.112.11.212) [Cisco-Nexus 5596 Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 16:33:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:30:05
+10359,03-05-2024 16:32:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+9247,03-05-2024 16:32:52,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(075) SERVER_10.100.31.13_VMNICXX Traffic,Down,13 #/s (Discards Out) is above the error limit of 2 #/s in Discards Out
+10695,03-05-2024 16:32:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:32:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+7138,03-05-2024 16:31:59,{fws-jp-172-60-60-22} (172.60.60.22) [FortiGate-80F] @Rack_03 [CDC-105],FortiGate System Statistics,FortiGate System Statistics,Up,2 %
+10695,03-05-2024 16:31:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+11124,03-05-2024 16:31:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:30:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:30:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:30:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:30:05,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11124,03-05-2024 16:30:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 16:29:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:29:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:29:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:26:07
+12483,03-05-2024 16:28:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:28:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:28:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12483,03-05-2024 16:27:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 16:27:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:26:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:26:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:26:07,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10359,03-05-2024 16:25:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9424,03-05-2024 16:25:46,{TP-CAAS-101-243} (192.168.101.243)(PRIMARY_ROUTER)[Cisco C1111-8P Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:25:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9423,03-05-2024 16:25:20,{TP-CAAS-101-244} (192.168.101.244)(SECONDARY_ROUTER)[Cisco C1111-8P Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:25:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:25:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:25:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:22:02
+10359,03-05-2024 16:24:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+9424,03-05-2024 16:24:46,{TP-CAAS-101-243} (192.168.101.243)(PRIMARY_ROUTER)[Cisco C1111-8P Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Down,
+5014,03-05-2024 16:24:39,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:24:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9423,03-05-2024 16:24:20,{TP-CAAS-101-244} (192.168.101.244)(SECONDARY_ROUTER)[Cisco C1111-8P Chassis] @Rack_XX,Syslog Receiver,Syslog Receiver,Down,
+12506,03-05-2024 16:24:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:24:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11124,03-05-2024 16:24:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 16:23:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5014,03-05-2024 16:23:39,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 16:23:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:23:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:23:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 16:23:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 16:22:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 16:22:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:22:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:22:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:22:02,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12521,03-05-2024 16:21:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:21:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:18:00
+10695,03-05-2024 16:20:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:20:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:19:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:19:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:19:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 16:18:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 16:18:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:18:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11124,03-05-2024 16:18:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:17:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:17:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:17:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:17:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:14:03
+10162,03-05-2024 16:16:35,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth19(73)__vNIC04-13.vc12.c02__10.112.73.13,Up,530 Mbit/s
+11123,03-05-2024 16:16:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:16:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:16:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:16:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 16:16:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 16:15:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9890,03-05-2024 16:15:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12578,03-05-2024 16:15:41,10.111.103.102,SNMP Traffic 64bit,LAN (10.111.103.102) Traffic,Up,5.19 Mbit/s
+10162,03-05-2024 16:15:35,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth19(73)__vNIC04-13.vc12.c02__10.112.73.13,Down,9.10 #/s (Discards In) is above the error limit of 2 #/s in Discards In
+11123,03-05-2024 16:15:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 16:14:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+9890,03-05-2024 16:14:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Warning,
+12577,03-05-2024 16:14:48,10.111.103.101,SNMP Traffic 64bit,LAN (10.111.103.101) Traffic,Up,58 Mbit/s
+12578,03-05-2024 16:14:41,10.111.103.102,SNMP Traffic 64bit,LAN (10.111.103.102) Traffic,Down,809 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12483,03-05-2024 16:14:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:14:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:14:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:14:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10359,03-05-2024 16:13:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12577,03-05-2024 16:13:48,10.111.103.101,SNMP Traffic 64bit,LAN (10.111.103.101) Traffic,Down,944 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12483,03-05-2024 16:13:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 16:13:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:13:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 16:13:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:10:04
+11124,03-05-2024 16:13:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 16:12:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12577,03-05-2024 16:12:48,10.111.103.101,SNMP Traffic 64bit,LAN (10.111.103.101) Traffic,Warning,794 Mbit/s (Traffic Total) is above the warning limit of 700 Mbit/s in Traffic Total
+12483,03-05-2024 16:12:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:12:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11124,03-05-2024 16:12:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+12577,03-05-2024 16:11:48,10.111.103.101,SNMP Traffic 64bit,LAN (10.111.103.101) Traffic,Up,529 Mbit/s
+10162,03-05-2024 16:11:35,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth19(73)__vNIC04-13.vc12.c02__10.112.73.13,Up,"1,023 Mbit/s"
+11123,03-05-2024 16:11:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:11:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:11:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:11:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12577,03-05-2024 16:10:48,10.111.103.101,SNMP Traffic 64bit,LAN (10.111.103.101) Traffic,Warning,721 Mbit/s (Traffic Total) is above the warning limit of 700 Mbit/s in Traffic Total
+10162,03-05-2024 16:10:35,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Eth19(73)__vNIC04-13.vc12.c02__10.112.73.13,Down,46 #/s (Discards In) is above the error limit of 2 #/s in Discards In
+11123,03-05-2024 16:10:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+10695,03-05-2024 16:10:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:10:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:10:04,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 16:09:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:09:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:09:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:06:02
+12483,03-05-2024 16:08:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 16:08:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:08:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:08:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+5014,03-05-2024 16:07:39,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:07:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:07:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5014,03-05-2024 16:06:39,{storage-tp-10-112-11-213} (10.112.11.213) [EdgeCore_AS7712-32X] @Rack_L16 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 16:06:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:06:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:06:02,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11124,03-05-2024 16:06:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 16:05:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11123,03-05-2024 16:05:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:05:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:05:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:05:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 16:05:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 16:02:03
+11124,03-05-2024 16:05:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 16:04:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+11123,03-05-2024 16:04:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+10695,03-05-2024 16:04:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 16:04:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:03:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 16:03:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 16:03:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10359,03-05-2024 16:02:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 16:02:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 16:02:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10577,03-05-2024 16:02:05,{mgmt-jp-172.60.60.143} (172.60.60.143) CISCO{WS-C3560X-48},Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 16:02:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+10359,03-05-2024 16:01:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 16:01:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 16:01:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 16:01:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10577,03-05-2024 16:01:05,{mgmt-jp-172.60.60.143} (172.60.60.143) CISCO{WS-C3560X-48},Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 16:01:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 15:58:11
+12483,03-05-2024 16:00:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12521,03-05-2024 16:00:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 15:59:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 15:59:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 15:58:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 15:58:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 15:58:11,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12521,03-05-2024 15:58:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11123,03-05-2024 15:57:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 15:57:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12506,03-05-2024 15:57:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 15:57:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 15:57:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 15:54:03
+11124,03-05-2024 15:57:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+11123,03-05-2024 15:56:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+12506,03-05-2024 15:56:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
 10359,03-05-2024 15:55:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
 12483,03-05-2024 15:55:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
 10695,03-05-2024 15:55:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,

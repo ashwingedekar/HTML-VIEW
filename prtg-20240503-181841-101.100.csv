@@ -1,4 +1,177 @@
 ID,Date Time,Parent,Type,Object,Status,Message(RAW)
+12686,03-05-2024 18:18:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.05 Mbit/s
+12685,03-05-2024 18:18:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.05 Mbit/s
+12684,03-05-2024 18:18:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.02 Mbit/s
+12683,03-05-2024 18:18:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.02 Mbit/s
+12682,03-05-2024 18:18:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12686,03-05-2024 18:18:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:18:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:18:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:18:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:18:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12506,03-05-2024 18:18:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:18:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:18:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 18:18:08,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11124,03-05-2024 18:18:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 18:17:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 18:17:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:17:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:17:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:14:03
+11124,03-05-2024 18:17:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 18:16:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12686,03-05-2024 18:16:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.05 Mbit/s
+12685,03-05-2024 18:16:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.05 Mbit/s
+12684,03-05-2024 18:16:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.01 Mbit/s
+12683,03-05-2024 18:16:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.02 Mbit/s
+12682,03-05-2024 18:16:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12483,03-05-2024 18:16:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12686,03-05-2024 18:16:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:16:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:16:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:16:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:16:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12506,03-05-2024 18:16:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:16:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:15:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12686,03-05-2024 18:14:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.06 Mbit/s
+12685,03-05-2024 18:14:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.05 Mbit/s
+12684,03-05-2024 18:14:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.01 Mbit/s
+12683,03-05-2024 18:14:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.02 Mbit/s
+12682,03-05-2024 18:14:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12686,03-05-2024 18:14:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:14:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:14:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:14:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:14:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+10695,03-05-2024 18:14:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:14:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+9890,03-05-2024 18:13:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+8438,03-05-2024 18:13:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Down,"1,004 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total"
+7272,03-05-2024 18:13:39,{mgmt-jp-10-100-11-52} (10.100.11.52) [Cisco-WS-C3750X-48P-S] @Rack_03 [CDC-104],SNMP Traffic 64bit,(10145) UPLINK_Switch_99.252_Gi1/0/25 Traffic,Down,966 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12153,03-05-2024 18:13:35,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(047) P2P_CONNECTED_TO_172.16.1.14_GE0/0/30 Traffic,Down,"1,006 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total"
+12093,03-05-2024 18:13:30,{mgmt-tp-10-112-11-201} (10.112.11.201) [CISCO-WS-C3750X-48P] @Rack_L16 [TP-GF],SNMP Traffic 64bit,(10113) SERVER_10.112.72.11_MGMT Traffic,Down,969 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+10695,03-05-2024 18:13:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:13:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+8193,03-05-2024 18:13:08,{mgmt-tp-192-168-101-252} (192.168.101.252) [CISCO--WS-C3850-48P] @Rack_L15 [TP-GF],SNMP Traffic 64bit,Gi1/0/23 to Gi1/0/40_mgmt-jp-192-168-99-252,Down,994 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+12349,03-05-2024 18:13:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:10:04
+8451,03-05-2024 18:12:56,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,Secondary_Uplink_for_CDC-TP_to_TIPL-172.16.1.14_Port_30-VLAN-1140,Down,831 Mbit/s (Traffic Total) is above the error limit of 800 Mbit/s in Traffic Total
+9890,03-05-2024 18:12:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Down,
+8438,03-05-2024 18:12:47,{mgmt-jp-192-168-99-252} (192.168.99.252) [WS-C3850-48P-E] @Rack_XX,SNMP Traffic 64bit,(032) switch_11.52_Port-1/0/45_Traffic_VLANs Traffic,Warning,715 Mbit/s (Traffic Total) is above the warning limit of 700 Mbit/s in Traffic Total
+12686,03-05-2024 18:12:34,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Up,0.05 Mbit/s
+12685,03-05-2024 18:12:33,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Up,0.04 Mbit/s
+12684,03-05-2024 18:12:32,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Up,0.01 Mbit/s
+12683,03-05-2024 18:12:31,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Up,0.01 Mbit/s
+12682,03-05-2024 18:12:30,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Up,0.05 Mbit/s
+12483,03-05-2024 18:12:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12686,03-05-2024 18:12:19,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(003) MT227-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12685,03-05-2024 18:12:18,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(002) MT224-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12684,03-05-2024 18:12:17,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(019) LAN_BRIDGE Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12683,03-05-2024 18:12:16,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(015) MGMT Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12682,03-05-2024 18:12:15,{isp-wr-gc-192-168-100-228} (192.168.100.228) [MK-CRS317-1G-16S+],SNMP Traffic 64bit,(001) MT223-MT228 Traffic,Warning,"No response (check: firewalls, routing, SNMP settings, IP addresses, SNMP version, community, passwords, etc) (SNMP error # -2003)"
+12506,03-05-2024 18:12:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+3056,03-05-2024 18:12:06,{mgmt-tp-192-168-101-251} (192.168.101.251) [CISCO-WS-C3850-24T] @Rack_L16 [TP-GF],SNMP Traffic 64bit,Gi1/0/13(20) to Gi1/0/46_mgmt-tp-10-112-11-201,Down,"3,486 #/s (Errors Out) is above the error limit of 2 #/s in Errors Out"
+12506,03-05-2024 18:11:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:11:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 18:10:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:10:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 18:10:04,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12521,03-05-2024 18:09:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:09:00,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:06:05
+11124,03-05-2024 18:09:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 18:08:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:08:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11124,03-05-2024 18:08:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 18:07:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 18:07:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 18:07:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:07:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5635,03-05-2024 18:07:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 18:07:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+8586,03-05-2024 18:07:05,{mgmt-jp-192-168-40-253} (192.168.40.253) [Cisco-WS-C3750E-48TD-S] @Rack_XX,Syslog Receiver,Syslog Receiver,Up,0.05 #/s
+10359,03-05-2024 18:06:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11164,03-05-2024 18:06:07,{isp-wr-tp-192-168-101-222} (192.168.101.222) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:06:05,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+8586,03-05-2024 18:06:05,{mgmt-jp-192-168-40-253} (192.168.40.253) [Cisco-WS-C3750E-48TD-S] @Rack_XX,Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 18:05:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+10696,03-05-2024 18:05:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5018,03-05-2024 18:05:26,{storage-cdc-tp-10-112-11-214} (10.112.11.214) [EdgeCore_AS7712-32X] @Rack_L15 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+11148,03-05-2024 18:05:24,{isp-wr-tp-192-168-101-221} (192.168.101.221) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 18:05:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10697,03-05-2024 18:05:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 18:05:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:05:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+5635,03-05-2024 18:05:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Down,
+11164,03-05-2024 18:05:07,{isp-wr-tp-192-168-101-222} (192.168.101.222) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 18:05:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 18:02:03
+9890,03-05-2024 18:04:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10696,03-05-2024 18:04:35,{isp-wr-tp-192-168-101-225} (192.168.101.225) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5018,03-05-2024 18:04:26,{storage-cdc-tp-10-112-11-214} (10.112.11.214) [EdgeCore_AS7712-32X] @Rack_L15 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+11148,03-05-2024 18:04:24,{isp-wr-tp-192-168-101-221} (192.168.101.221) [CCR-CCR1072-1G-8S+] @Rack_B4 [TP-1st Floor],Syslog Receiver,Syslog Receiver,Down,
+10697,03-05-2024 18:04:21,{isp-wr-tp-192-168-101-226} (192.168.101.226) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10695,03-05-2024 18:04:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:04:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9890,03-05-2024 18:03:52,{storage-cdc-gc-10-111-11-213} (10.111.11.213) [EdgeCore_AS7712-32X] @Rack_D04 [GC-3F],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:03:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 18:02:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 18:02:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 18:02:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 18:02:03,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 18:01:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 18:01:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:58:12
+12506,03-05-2024 18:00:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 18:00:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:59:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:59:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 17:58:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:58:12,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+5635,03-05-2024 17:58:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:58:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:57:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:57:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:57:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+12349,03-05-2024 17:57:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:54:04
+10359,03-05-2024 17:56:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:56:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+9878,03-05-2024 17:56:23,{storage-cdc-gc-10-111-11-214} (10.111.11.214) [EdgeCore_AS7712-32X] @Rack_D05 [GC-3F],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:56:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10695,03-05-2024 17:56:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+5635,03-05-2024 17:56:11,{mgmt-jp-10-100-11-53} (10.100.11.53) [Cisco-WS-C3750X-48P-S] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Down,
+10359,03-05-2024 17:55:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
+12483,03-05-2024 17:55:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9878,03-05-2024 17:55:23,{storage-cdc-gc-10-111-11-214} (10.111.11.214) [EdgeCore_AS7712-32X] @Rack_D05 [GC-3F],Syslog Receiver,Syslog Receiver,Warning,
+9248,03-05-2024 17:55:17,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(076) SERVER_10.100.31.14_vmNIC-12 Traffic,Up,"2,920 Mbit/s"
+12483,03-05-2024 17:54:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:54:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:54:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:54:04,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+11123,03-05-2024 17:53:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:53:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+9248,03-05-2024 17:53:17,{JP-Storage55-Secondary} (10.100.11.56) HUAWEI CE6860-48S8CQ-EI @Rack_XX,SNMP Traffic 64bit,(076) SERVER_10.100.31.14_vmNIC-12 Traffic,Down,12 #/s (Discards Out) is above the error limit of 2 #/s in Discards Out
+10695,03-05-2024 17:53:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12521,03-05-2024 17:53:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:53:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:50:06
+11123,03-05-2024 17:52:32,{isp-wr-gc-192-168-100-224} (192.168.100.224) [MK-CRS317-1G-16S+] @Rack_D3,Syslog Receiver,Syslog Receiver,Down,
+11124,03-05-2024 17:52:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
+12483,03-05-2024 17:51:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:51:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:51:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+11124,03-05-2024 17:51:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Down,
+300,03-05-2024 17:50:27,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Email"": Authentication to SMTP relay server ""smtp.gmail.com"" unsuccessful (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)"
+300,03-05-2024 17:50:25,,Notification Template,Email and push notification to admin,Notification Info,"Error sending ""Push Notification"": No ""Push"" contact found (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)"
+0,03-05-2024 17:50:24,,Group,CDC_INFRA_PRTG-101,Notification Info,"State Trigger sends Email,Push Notification (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)"
+10527,03-05-2024 17:50:24,{mgmt-jp-172.60.60.142} (172.60.60.142) CISCO{WS-C3560X-48},SNMP Traffic 64bit,(10106) UPLINK_TO_PMSEC_SW_P-gi4_104/R7 Traffic,Notification Info,State Trigger activated (Sensor ID: 10527 | Trigger Source ID: 0 | Trigger ID: 1)
+12483,03-05-2024 17:50:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:50:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12349,03-05-2024 17:50:06,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Up,OK
+12483,03-05-2024 17:49:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12506,03-05-2024 17:49:14,{idrac-jp-10-100-11-43} (10.100.11.43) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:49:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
+12349,03-05-2024 17:49:01,10.100.41.111,Redfish System Health,System Health: System (CNIVC007BF0442),Unknown,No data since 03-05-2024 17:46:03
+12483,03-05-2024 17:48:24,{idrac-jp-10-100-11-42} (10.100.11.42) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Warning,
+10695,03-05-2024 17:48:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Up,0 #/s
+12521,03-05-2024 17:48:09,{idrac-jp-10-100-11-44} (10.100.11.44) [Cisco-SG350X-48] @Rack_02 [CDC-104],Syslog Receiver,Syslog Receiver,Up,0 #/s
+10359,03-05-2024 17:47:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Up,0 #/s
 10695,03-05-2024 17:47:13,{isp-wr-tp-192-168-101-224} (192.168.101.224) [CCR2116-12G-4S+] @Rack_ [TP-],Syslog Receiver,Syslog Receiver,Down,
 11124,03-05-2024 17:47:00,{isp-wr-gc-192-168-100-223} (192.168.100.223) [MK-CCRS317-1G-16S+] @Rack_D2,Syslog Receiver,Syslog Receiver,Up,0 #/s
 10359,03-05-2024 17:46:56,{pdu-tp-192.168.101.240} (192.168.101.240) [HUAWEI S5720-56C-EI-DC] @Rack_L13 [TP-GF],Syslog Receiver,Syslog Receiver,Warning,
