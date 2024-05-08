@@ -128,14 +128,14 @@ for status, types in data_by_status.items():
     html_content += f"<li onclick='toggleStatus(event)' class='{status_class}'>{status} <strong> ({total_types_by_status[status]})</strong><ul class='hidden'>"
     
     for type_, objects in types.items():
-        html_content += f"<li onclick='toggleChildren(event)'>Sensor Type: {type_} <strong>({len(objects)})</strong><ul class='hidden'>"
+        html_content += f"<li onclick='toggleChildren(event)'><strong>Sensor Type:</strong> {type_} <strong>({len(objects)})</strong><ul class='hidden'>"
         
         grouped_objects = defaultdict(list)
         for date_time, object_, parent, message, sensid in objects:
             grouped_objects[parent].append((date_time, object_, message, sensid))
         
         for parent, grouped_items in grouped_objects.items():
-            html_content += f"<li onclick='toggleChildren(event)'>Device : {parent} <strong>({len(grouped_items)})</strong><ul class='hidden'>"
+            html_content += f"<li onclick='toggleChildren(event)'><strong>Device :</strong> {parent} <strong>({len(grouped_items)})</strong><ul class='hidden'>"
             
             grouped_objects_by_type = defaultdict(list)
             for date_time, object_, message, sensid in grouped_items:
@@ -143,10 +143,10 @@ for status, types in data_by_status.items():
             
             for obj, grouped_items_by_type in grouped_objects_by_type.items():
                 sensor_url = f"https://{server_address}/sensor.htm?id={sensid}"
-                html_content += f"<li><strong>ID:<a href='{sensor_url}'> {sensid} </a></strong>Sensor: {obj} <strong>({len(grouped_items_by_type)})</strong><ul class='hidden'>"
+                html_content += f"<li><strong>ID:<a href='{sensor_url}'> {sensid} </a>Sensor:</strong> {obj} <strong>({len(grouped_items_by_type)})</strong><ul class='hidden'>"
                 
                 for date_time, message, sensid in grouped_items_by_type:
-                    html_content += f"<li>DateTime: {date_time}, Message: {message}</li>"
+                    html_content += f"<li><strong>DateTime:</strong> {date_time}, <strong> Message:</strong> {message}</li>"
                 
                 html_content += "</ul></li>"
             
@@ -159,9 +159,6 @@ for status, types in data_by_status.items():
 html_content += """ 
 </ul>
 <script>
-
-
-
 
 function toggleStatus(event) {
   const target = event.target;
