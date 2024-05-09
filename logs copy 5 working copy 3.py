@@ -135,6 +135,8 @@ function toggleChildren(event) {
 """
 
 # Write HTML to a temporary file
+
+#f"prtg-{current_datetime}
 with open("status_summary.html", "w") as file:
     file.write(html_content)
 

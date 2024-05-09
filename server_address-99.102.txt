@@ -1,0 +1,4 @@
+server=PRTG-99-102.comtelindia.com:10443
+username=Ashwin.Gedekar
+passhash=1121549414
+day=today
