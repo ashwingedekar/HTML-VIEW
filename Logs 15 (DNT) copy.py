@@ -24,7 +24,7 @@ elif prtg_choice == "101.100":
     param = server_parameters.get("day")
 
 elif prtg_choice == "99.102":
-    with open("server_address-101.100.txt", "r") as file:
+    with open("server_address-99.102.txt", "r") as file:
         server_parameters = dict(line.strip().split("=") for line in file)
     server_address = server_parameters.get("server")
     username = server_parameters.get("username")
@@ -71,7 +71,7 @@ df = pd.read_csv(file_path)
 
 columns_to_drop = ['ID(RAW)', 'Date Time(RAW)', 'Parent(RAW)', 'Type(RAW)', 'Object(RAW)', 'Status(RAW)', 'Message']
 df.drop(columns=columns_to_drop, inplace=True)
-df['Message(RAW)'] = df['Message(RAW)'].fillna('<0.01')
+#df['Message(RAW)'] = df['Message(RAW)'].fillna('0.03 #/s (Warnings) is above the warning limit of < 0.01 #/s in Warnings')
 df.to_csv(file_path, index=False)
 
 print("CSV data processed successfully.")
@@ -179,6 +179,10 @@ for status, types in data_by_status.items():
                     sensor_url = f"https://{server_address}/group.htm?id={sensid}"
                 elif "Device" in type_:
                     sensor_url = f"https://{server_address}/device.htm?id={sensid}"
+                elif "Probe" in type_:
+                    sensor_url = f"https://{server_address}/probenode.htm?id={sensid}"  #editnotification.htm
+                elif "Notification Template" in type_:
+                    sensor_url = f"https://{server_address}/editnotification.htm?id={sensid}"  #editnotification.htm
                 else:
                     sensor_url = f"https://{server_address}/sensor.htm?id={sensid}"
                 

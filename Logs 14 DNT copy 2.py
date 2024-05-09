@@ -24,7 +24,7 @@ elif prtg_choice == "101.100":
     param = server_parameters.get("day")
 
 elif prtg_choice == "99.102":
-    with open("server_address-101.100.txt", "r") as file:
+    with open("server_address-99.102.txt", "r") as file:
         server_parameters = dict(line.strip().split("=") for line in file)
     server_address = server_parameters.get("server")
     username = server_parameters.get("username")
@@ -71,7 +71,9 @@ df = pd.read_csv(file_path)
 
 columns_to_drop = ['ID(RAW)', 'Date Time(RAW)', 'Parent(RAW)', 'Type(RAW)', 'Object(RAW)', 'Status(RAW)', 'Message']
 df.drop(columns=columns_to_drop, inplace=True)
-df['Message(RAW)'] = df['Message(RAW)'].fillna('<0.01')
+df['Message(RAW)'] = df['Message(RAW)'].fillna('(Errors) is above the error limit of < 0.01 #/s in Errors')
+df = df[df['Type'] != 'Notification Template']
+
 df.to_csv(file_path, index=False)
 
 print("CSV data processed successfully.")
@@ -94,7 +96,9 @@ html_content = """
 <head>
 <title>Status Summary</title>
 <style>
-
+.bold-text {
+            font-weight: bold;
+        }
 
 body
 {
@@ -179,13 +183,15 @@ for status, types in data_by_status.items():
                     sensor_url = f"https://{server_address}/group.htm?id={sensid}"
                 elif "Device" in type_:
                     sensor_url = f"https://{server_address}/device.htm?id={sensid}"
+                elif "Probe" in type_:
+                    sensor_url = f"https://{server_address}/probenode.htm?id={sensid}"
                 else:
                     sensor_url = f"https://{server_address}/sensor.htm?id={sensid}"
                 
                 html_content += f"<li><strong>ID:<a href='{sensor_url}'> {sensid} </a>Sensor:</strong> {obj} <strong>({len(grouped_items_by_type)})</strong><ul class='hidden'>"
                 
                 for date_time, message, sensid in grouped_items_by_type:
-                    html_content += f"<li>DateTime: {date_time}, Message: {message}</li>"
+                    html_content += f"<li><strong>DateTime:</strong> {date_time},<strong> Message:</strong> {message}</li>"
                 
                 html_content += "</ul></li>"
             
