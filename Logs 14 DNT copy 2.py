@@ -4,8 +4,13 @@ from datetime import datetime
 from collections import defaultdict
 import webbrowser
 
-prtg_choice = input("Enter the PRTG you want (99.100, 101.100, or 99.102): ")
+def read_csv_and_create_id_sensor_map(file_path):
+    df_csv = pd.read_csv(file_path)  # Read CSV
+    id_sensor_map = dict(zip(df_csv['ID'], df_csv['Type']))  # Use the 'ID' column as ID and the 'Type' column as Type
+    return id_sensor_map
 
+
+prtg_choice = input("Enter the PRTG you want (99.100, 101.100, or 99.102): ")
 
 if prtg_choice == "99.100":
     with open("server_address-99.100.txt", "r") as file:
@@ -22,7 +27,6 @@ elif prtg_choice == "101.100":
     username = server_parameters.get("username")
     passhash = server_parameters.get("passhash")
     param = server_parameters.get("day")
-
 elif prtg_choice == "99.102":
     with open("server_address-99.102.txt", "r") as file:
         server_parameters = dict(line.strip().split("=") for line in file)
@@ -34,7 +38,6 @@ else:
     print("Invalid input! Please enter either '99.100', '101.100', or '99.102'.")
     exit()
 
-
 if server_address and "99-102" in server_address:
     h2_content = "Prtg-99-102 Logs"
 elif server_address and "101-100" in server_address:
@@ -43,7 +46,6 @@ elif server_address and "99-100" in server_address:
     h2_content = "Prtg-99-100 Logs"
 else:
    h2_content ="PRTG LOGS"
-
 
 api_endpoint = f'https://{server_address}/api/table.csv?content=messages&columns=objid,datetime,parent,type,name,status,message&filter_drel={param}&count=*&username={username}&passhash={passhash}'
 current_datetime = datetime.now().strftime("%Y%m%d-%H%M%S")
@@ -67,28 +69,29 @@ with open(file_path, "wb") as file:
 
 print(f"CSV data saved to {file_path}")
 
-df = pd.read_csv(file_path)
+# Read CSV and create ID-Sensor type map
+id_sensor_map = read_csv_and_create_id_sensor_map(file_path)
 
-columns_to_drop = ['ID(RAW)', 'Date Time(RAW)', 'Parent(RAW)', 'Type(RAW)', 'Object(RAW)', 'Status(RAW)', 'Message']
+df = pd.read_csv(file_path, sep='\t')  # Read CSV with tab delimiter
+
+columns_to_drop = ['ID', 'Date Time', 'Parent', 'Type', 'Object', 'Status', 'Message(RAW)']
 df.drop(columns=columns_to_drop, inplace=True)
-df['Message(RAW)'] = df['Message(RAW)'].fillna('(Errors) is above the error limit of < 0.01 #/s in Errors')
-df = df[df['Type'] != 'Notification Template']
-
-df.to_csv(file_path, index=False)
+df.to_csv(file_path, index=False, header=False)
 
 print("CSV data processed successfully.")
+
 status_counts = df['Status'].value_counts()
 data_by_status = defaultdict(lambda: defaultdict(list))
 
 for _, row in df.iterrows():
     status = row['Status']
-    type_ = row['Type']
+    type_ = id_sensor_map.get(row['ID'], 'Unknown')  # Get sensor type from ID
     date_time = row['Date Time']
     object_ = row['Object']
-    parent = row.get('Parent', '')  
-    message = row.get('Message(RAW)', '') 
-    sensid  = row.get('ID') 
-    data_by_status[status][type_].append((date_time, object_, parent, message,sensid))
+    parent = row['Parent']
+    message = row['Message(RAW)']
+    sensid = row['ID']
+    data_by_status[status][type_].append((date_time, object_, parent, message, sensid))
 
 html_content = """
 <!DOCTYPE html>
@@ -96,10 +99,6 @@ html_content = """
 <head>
 <title>Status Summary</title>
 <style>
-.bold-text {
-            font-weight: bold;
-        }
-
 body
 {
 font-family: Calibri, sans-serif;
@@ -120,11 +119,7 @@ font-family: Calibri, sans-serif;
   cursor: pointer; 
 }
 
-
 .tree li {
- 
- 
-  
 }
 
 /* Define styles for different status backgrounds */
@@ -135,17 +130,14 @@ font-family: Calibri, sans-serif;
   color: red;
 }
 .status-warning {
-  
 }
 .hidden {
   display: none;
 }
-
 </style>
 </head>
 <body>
 <h2>%s</h2>
-
 <ul class="tree">
 """ % h2_content
 
@@ -176,22 +168,13 @@ for status, types in data_by_status.items():
             grouped_objects_by_type = defaultdict(list)
             for date_time, object_, message, sensid in grouped_items:
                 grouped_objects_by_type[object_].append((date_time, message, sensid))
-            
+
             for obj, grouped_items_by_type in grouped_objects_by_type.items():
-                #print("Object:", type_) 
-                if "Group" in type_:
-                    sensor_url = f"https://{server_address}/group.htm?id={sensid}"
-                elif "Device" in type_:
-                    sensor_url = f"https://{server_address}/device.htm?id={sensid}"
-                elif "Probe" in type_:
-                    sensor_url = f"https://{server_address}/probenode.htm?id={sensid}"
-                else:
-                    sensor_url = f"https://{server_address}/sensor.htm?id={sensid}"
-                
+                sensor_url = f"https://{server_address}/sensor.htm?id={sensid}"
                 html_content += f"<li><strong>ID:<a href='{sensor_url}'> {sensid} </a>Sensor:</strong> {obj} <strong>({len(grouped_items_by_type)})</strong><ul class='hidden'>"
                 
                 for date_time, message, sensid in grouped_items_by_type:
-                    html_content += f"<li><strong>DateTime:</strong> {date_time},<strong> Message:</strong> {message}</li>"
+                    html_content += f"<li>DateTime: {date_time}, Message: {message}</li>"
                 
                 html_content += "</ul></li>"
             
@@ -204,10 +187,6 @@ for status, types in data_by_status.items():
 html_content += """ 
 </ul>
 <script>
-
-
-
-
 function toggleStatus(event) {
   const target = event.target;
   const childUl = target.querySelector('ul');
@@ -227,48 +206,22 @@ function toggleChildren(event) {
     event.stopPropagation();
   }
 }
-
-function showMessage(event) {
-  const target = event.target;
-  const childUl = target.querySelector('ul');
-  if (childUl) {
-    childUl.classList.toggle('hidden');
-    // Prevent toggling the parent UL when clicking on an inner LI
-    event.stopPropagation();
-  }
-}
-
-let h2 = document.querySelector("h2");
-
-if (server_address.includes("prtg-99-102") ) {
-  h2.innerHTML = "Prtg-99-102 Logs !!!";
-} else {
-  h2.innerHTML = "New heading text if condition is false";
-}
-
-
 </script>
 </body>
 </html>
 """
 
-
 if "101-100" in server_address:
- with open(f"prtg-{current_datetime}-101.100.html", "w") as file:
-    file.write(html_content)
-    webbrowser.open(f"prtg-{current_datetime}-101.100.html")
+    with open(f"prtg-{current_datetime}-101.100.html", "w") as file:
+        file.write(html_content)
+        webbrowser.open(f"prtg-{current_datetime}-101.100.html")
 if "99-100" in server_address:
- with open(f"prtg-{current_datetime}-99.100.html", "w") as file:
-    file.write(html_content)
-    webbrowser.open(f"prtg-{current_datetime}-99.100.html")
+    with open(f"prtg-{current_datetime}-99.100.html", "w") as file:
+        file.write(html_content)
+        webbrowser.open(f"prtg-{current_datetime}-99.100.html")
 if "99-102" in server_address:
- with open(f"prtg-{current_datetime}-99.102.html", "w") as file:
-    file.write(html_content)
-    webbrowser.open(f"prtg-{current_datetime}-99.102.html")
-
+    with open(f"prtg-{current_datetime}-99.102.html", "w") as file:
+        file.write(html_content)
+        webbrowser.open(f"prtg-{current_datetime}-99.102.html")
 
 print("HTML page generated successfully.")
-
-
-
-# Open the HTML page in a web browser
