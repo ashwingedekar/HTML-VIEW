@@ -31,25 +31,26 @@ elif prtg_choice == "99.102":
 else:
     print("Invalid input! Please enter either '99.100', '101.100', or '99.102'.")
     exit()
+current_datetime = datetime.now().strftime("%d %B %Y %I:%M %p")
 
 if server_address and "99-102" in server_address:
-    h2_content = "Prtg-99-102 Logs"
+    h2_content = f"Prtg-99-102-Logs-{current_datetime}"
 elif server_address and "101-100" in server_address:
-     h2_content = "Prtg-101-100 Logs"
+     h2_content = f"Prtg-101-100 Logs-{current_datetime}"
 elif server_address and "99-100" in server_address:
-    h2_content = "Prtg-99-100 Logs"
+    h2_content = f"Prtg-99-100 Logs-{current_datetime}"
 else:
     h2_content ="PRTG LOGS"
 
 api_endpoint = f'https://{server_address}/api/table.csv?content=messages&columns=objid,datetime,parent,type,name,status,message&filter_drel={param}&count=*&username={username}&passhash={passhash}'
-current_datetime = datetime.now().strftime("%Y%m%d-%H%M%S")
+current_datetime = datetime.now().strftime("%Y %m %d-%H %M %S")
 
 if "101-100" in server_address:
-    file_path = f"prtg-{current_datetime}-101.100.csv"
+    file_path = f"prtg-101.100-{current_datetime}.csv"
 elif "99-100" in server_address:
-    file_path = f"prtg-{current_datetime}-99.100.csv"
+    file_path = f"prtg-99.100-{current_datetime}.csv"
 elif "99-102" in server_address:
-    file_path = f"prtg-{current_datetime}-99.102.csv"
+    file_path = f"prtg-99.102-{current_datetime}.csv"
 else:
     file_path = f"prtg-{current_datetime}-default.csv"
 
@@ -253,16 +254,16 @@ if (server_address.includes("prtg-99-102") ) {
 
 
 if "101-100" in server_address:
- with open(f"prtg-{current_datetime}-101.100.html", "w") as file:
+ with open(f"prtg-101.100-{current_datetime}.html", "w") as file:
     file.write(html_content)
-    webbrowser.open(f"prtg-{current_datetime}-101.100.html")
+    webbrowser.open(f"prtg-101.100-{current_datetime}.html")
 if "99-100" in server_address:
- with open(f"prtg-{current_datetime}-99.100.html", "w") as file:
+ with open(f"prtg-99.100{current_datetime}.html", "w") as file:
     file.write(html_content)
-    webbrowser.open(f"prtg-{current_datetime}-99.100.html")
+    webbrowser.open(f"prtg-99.100{current_datetime}.html")
 if "99-102" in server_address:
- with open(f"prtg-{current_datetime}-99.102.html", "w") as file:
+ with open(f"prtg-99.102-{current_datetime}.html", "w") as file:
     file.write(html_content)
-    webbrowser.open(f"prtg-{current_datetime}-99.102.html")
+    webbrowser.open(f"prtg-99.102-{current_datetime}.html")
 
 print("HTML page generated successfully.")

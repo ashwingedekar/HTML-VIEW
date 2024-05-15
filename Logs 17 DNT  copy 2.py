@@ -3,6 +3,8 @@ import pandas as pd
 from datetime import datetime
 from collections import defaultdict
 import webbrowser
+import json
+import csv
 
 prtg_choice = input("Enter the PRTG you want (99.100, 101.100, or 99.102): ")
 
@@ -32,27 +34,32 @@ else:
     print("Invalid input! Please enter either '99.100', '101.100', or '99.102'.")
     exit()
 
+current_datetime = datetime.now().strftime("%d %B %Y %I:%M %p")
+
 if server_address and "99-102" in server_address:
-    h2_content = "Prtg-99-102 Logs"
+    h2_content = f"Prtg-99-102-Logs-{current_datetime}"
 elif server_address and "101-100" in server_address:
-     h2_content = "Prtg-101-100 Logs"
+     h2_content = f"Prtg-101-100 Logs-{current_datetime}"
 elif server_address and "99-100" in server_address:
-    h2_content = "Prtg-99-100 Logs"
+    h2_content = f"Prtg-99-100 Logs-{current_datetime}"
 else:
     h2_content ="PRTG LOGS"
 
-api_endpoint = f'https://{server_address}/api/table.csv?content=messages&columns=objid,datetime,parent,type,name,status,message&filter_drel={param}&count=*&username={username}&passhash={passhash}'
+api_endpoint = f'https://{server_address}/api/table.json?content=messages&columns=objid,datetime,parent,type,name,status,message&filter_drel={param}&count=*&username={username}&passhash={passhash}'
 current_datetime = datetime.now().strftime("%Y%m%d-%H%M%S")
 
 if "101-100" in server_address:
-    file_path = f"prtg-{current_datetime}-101.100.csv"
+    file_path = f"prtg-{current_datetime}-101.100.json"
+    csv_path  = f"prtg-{current_datetime}-101.100.csv"
 elif "99-100" in server_address:
-    file_path = f"prtg-{current_datetime}-99.100.csv"
+    file_path = f"prtg-{current_datetime}-99.100.json"
+    csv_path  = f"prtg-{current_datetime}-99.100.csv"
 elif "99-102" in server_address:
-    file_path = f"prtg-{current_datetime}-99.102.csv"
+    file_path = f"prtg-{current_datetime}-99.102.json"
+    csv_path  = f"prtg-{current_datetime}-99.102.csv"
 else:
-    file_path = f"prtg-{current_datetime}-default.csv"
-
+    file_path = f"prtg-{current_datetime}-default.json"
+    csv_path  = f"prtg-{current_datetime}-default.csv"
 response = requests.get(api_endpoint, stream=True)
 response.raise_for_status()
 
@@ -60,13 +67,54 @@ with open(file_path, "wb") as file:
     for chunk in response.iter_content(chunk_size=8192):
         file.write(chunk)
 
-print(f"CSV data saved to {file_path}")
+print(f"Json data saved to {file_path}")
 
-df = pd.read_csv(file_path)
+json_file = f'{file_path}'
+csv_file = f'{csv_path}'
+def json_to_csv(json_file, csv_file):
+   
+    with open(json_file, 'r') as f:
+        data = json.load(f)
+      
+    with open(csv_file, 'w', newline='') as f:
+        writer = csv.writer(f)
+        
+        headers = data['messages'][0].keys()  
+        writer.writerow(headers)
+        
+        
+        for message in data['messages']:
+            writer.writerow(message.values())
 
+json_to_csv(json_file, csv_file)
+
+df = pd.read_csv(f"{csv_path}")
+
+df.rename(columns={
+    'objid': 'ID',
+    'objid_raw': 'ID(RAW)',
+    'datetime': 'Date Time',
+    'datetime_raw': 'Date Time(RAW)',
+    'parent': 'Parent',
+    'parent_raw': 'Parent(RAW)',
+    'type': 'Type',
+    'type_raw': 'Type(RAW)',
+    'name': 'Object',
+    'name_raw': 'Object(RAW)',
+    'status': 'Status',
+    'status_raw': 'Status(RAW)',
+    'message': 'Message',
+    'message_raw': 'Message(RAW)'
+}, inplace=True)
+
+df.to_csv(f"{csv_path}", index=False)
+
+print(f"CSV data saved to {csv_path}")
+
+df = pd.read_csv(csv_path)
 columns_to_drop = ['ID(RAW)', 'Date Time(RAW)', 'Parent(RAW)', 'Type(RAW)', 'Object(RAW)', 'Status(RAW)', 'Message']
 df.drop(columns=columns_to_drop, inplace=True)
-df.to_csv(file_path, index=False)
+df.to_csv(csv_path, index=False)
 print("CSV data processed successfully.")
 
 status_counts = df['Status'].value_counts()
@@ -154,14 +202,14 @@ for status, types in data_by_status.items():
     html_content += f"<li onclick='toggleStatus(event)' class='{status_class}'>{status} <strong> ({total_types_by_status[status]})</strong><ul class='hidden'>"
     
     for type_, objects in types.items():
-        html_content += f"<li onclick='toggleChildren(event)'>Sensor Type: {type_} <strong>({len(objects)})</strong><ul class='hidden'>"
+        html_content += f"<li onclick='toggleChildren(event)'><b>Sensor Type:</b> {type_} <strong>({len(objects)})</strong><ul class='hidden'>"
         
         grouped_objects = defaultdict(list)
         for date_time, object_, parent, message, sensid in objects:
             grouped_objects[parent].append((date_time, object_, message, sensid))
         
         for parent, grouped_items in grouped_objects.items():
-            html_content += f"<li onclick='toggleChildren(event)'>Device : {parent} <strong>({len(grouped_items)})</strong><ul class='hidden'>"
+            html_content += f"<li onclick='toggleChildren(event)'><b>Device :</b> {parent} <strong>({len(grouped_items)})</strong><ul class='hidden'>"
             
             grouped_objects_by_type = defaultdict(list)
             for date_time, object_, message, sensid in grouped_items:
@@ -190,7 +238,7 @@ for status, types in data_by_status.items():
                 html_content += f"<li><strong>ID:<a href='{sensor_url}'> {sensid} </a>Sensor:</strong> {obj} <strong>({len(grouped_items_by_type)})</strong><ul class='hidden'>"
                 
                 for date_time, message, sensid in grouped_items_by_type:
-                    html_content += f"<li>DateTime: {date_time}, Message: {message}</li>"
+                    html_content += f"<li><b>DateTime:</b> {date_time}, <b>Message:</b> {message}</li>"
                 
                 html_content += "</ul></li>"
             
@@ -244,7 +292,6 @@ if (server_address.includes("prtg-99-102") ) {
 } else {
   h2.innerHTML = "New heading text if condition is false";
 }
-
 
 </script>
 </body>

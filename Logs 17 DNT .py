@@ -31,25 +31,26 @@ elif prtg_choice == "99.102":
 else:
     print("Invalid input! Please enter either '99.100', '101.100', or '99.102'.")
     exit()
-
+#current_datetime = datetime.now().strftime("%d %B %Y")
+current_datetime = datetime.now().strftime("%d %B %Y %I:%M %p")
 if server_address and "99-102" in server_address:
-    h2_content = "Prtg-99-102 Logs"
+    h2_content = f"Prtg-99-102 Logs .{current_datetime}" 
 elif server_address and "101-100" in server_address:
-     h2_content = "Prtg-101-100 Logs"
+     h2_content = f"Prtg-101-100 Logs. {current_datetime}"
 elif server_address and "99-100" in server_address:
-    h2_content = "Prtg-99-100 Logs"
+    h2_content = f"Prtg-99-100 Logs. {current_datetime}"
 else:
     h2_content ="PRTG LOGS"
 
 api_endpoint = f'https://{server_address}/api/table.csv?content=messages&columns=objid,datetime,parent,type,name,status,message&filter_drel={param}&count=*&username={username}&passhash={passhash}'
-current_datetime = datetime.now().strftime("%Y%m%d-%H%M%S")
+current_datetime = datetime.now().strftime("%Y %m %d-%H %M %S")
 
 if "101-100" in server_address:
-    file_path = f"prtg-{current_datetime}-101.100.csv"
+    file_path = f"prtg-101.100-{current_datetime}.csv"
 elif "99-100" in server_address:
-    file_path = f"prtg-{current_datetime}-99.100.csv"
+    file_path = f"prtg-99.100-{current_datetime}.csv"
 elif "99-102" in server_address:
-    file_path = f"prtg-{current_datetime}-99.102.csv"
+    file_path = f"prtg-99.102{current_datetime}.csv"
 else:
     file_path = f"prtg-{current_datetime}-default.csv"
 
@@ -154,14 +155,14 @@ for status, types in data_by_status.items():
     html_content += f"<li onclick='toggleStatus(event)' class='{status_class}'>{status} <strong> ({total_types_by_status[status]})</strong><ul class='hidden'>"
     
     for type_, objects in types.items():
-        html_content += f"<li onclick='toggleChildren(event)'>Sensor Type: {type_} <strong>({len(objects)})</strong><ul class='hidden'>"
+        html_content += f"<li onclick='toggleChildren(event)'><b>Sensor Type:</b> {type_} <strong>({len(objects)})</strong><ul class='hidden'>"
         
         grouped_objects = defaultdict(list)
         for date_time, object_, parent, message, sensid in objects:
             grouped_objects[parent].append((date_time, object_, message, sensid))
         
         for parent, grouped_items in grouped_objects.items():
-            html_content += f"<li onclick='toggleChildren(event)'>Device : {parent} <strong>({len(grouped_items)})</strong><ul class='hidden'>"
+            html_content += f"<li onclick='toggleChildren(event)'><b>Device :</b> {parent} <strong>({len(grouped_items)})</strong><ul class='hidden'>"
             
             grouped_objects_by_type = defaultdict(list)
             for date_time, object_, message, sensid in grouped_items:
@@ -190,7 +191,7 @@ for status, types in data_by_status.items():
                 html_content += f"<li><strong>ID:<a href='{sensor_url}'> {sensid} </a>Sensor:</strong> {obj} <strong>({len(grouped_items_by_type)})</strong><ul class='hidden'>"
                 
                 for date_time, message, sensid in grouped_items_by_type:
-                    html_content += f"<li>DateTime: {date_time}, Message: {message}</li>"
+                    html_content += f"<li><b>DateTime:</b> {date_time}, <b>Message:</b> {message}</li>"
                 
                 html_content += "</ul></li>"
             
@@ -244,7 +245,6 @@ if (server_address.includes("prtg-99-102") ) {
 } else {
   h2.innerHTML = "New heading text if condition is false";
 }
-
 
 </script>
 </body>
